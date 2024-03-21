@@ -1,9 +1,9 @@
 \documentclass{article}
 \usepackage{graphicx} % Required for inserting images
 
-\title{GRUPO HUDSON}
-\author{Celina Ibañez\\Pilar Mobilia\\Carla Torresi\\Louise Berard\\Bernardita Zanella\\Karima Valli}
-\date{March 2024}
+\title{\textbf{GRUPO HUDSON}}
+\author{María Celina Ibañez\\María del Pilar Mobilia\\Carla Torresi\\Louise Berard\\María Bernardita Zanella\\Karima Valli}
+\date{\textbf{March 2024}}
 
 \documentclass{article}
 \usepackage{graphicx} % Required for inserting images
@@ -214,14 +214,23 @@ Al agregar el paquete “hyperref” antes de "begin{document}" con "usepackage{
 
 \section{GitHub}
 Para utilizar GitHub, seguimos estos pasos:\\
-1)Creamos una cuenta: Vamos al sitio web de GitHub (github.com) y hacemos clic en "Sign up" para crear una cuenta. Proporcionamos nuestra dirección de correo electrónico, nombre de usuario y contraseña, y seguimos los pasos para completar el proceso de registro.
-\\2)Confirmamos nuestra dirección de correo electrónico: Después de registrarnos, recibiremos un correo electrónico de GitHub para confirmar nuestra dirección de correo electrónico. Seguimos las instrucciones en el correo electrónico para confirmar nuestra cuenta.
-\\3)Exploramos la interfaz de usuario: Una vez que hayamos iniciado sesión en nuestra cuenta de GitHub, nos tomamos un tiempo para explorar la interfaz de usuario. Nos familiarizamos con las pestañas de perfil, repositorios, notificaciones y configuración.
-\\4)Creamos un nuevo repositorio: Para comenzar a trabajar en un proyecto, podemos crear un nuevo repositorio. Hacemos clic en el botón "New" en la página principal de GitHub, proporcionamos un nombre para nuestro repositorio, una descripción opcional y elegimos si el repositorio será público o privado.
-\\5)Clonamos un repositorio existente (opcional): Si estamos interesado en contribuir a un proyecto existente en GitHub, podemos clonar el repositorio a nuestra computadora local. Para hacer esto, navegamos al repositorio en GitHub, hacemos clic en el botón "Code" y copiamos la URL del repositorio. Luego, en nuestra terminal o línea de comandos, utilizamos el comando git clone seguido de la URL del repositorio.
-\\6)Aprendemos a utilizar Git: GitHub utiliza Git, un sistema de control de versiones, para gestionar los cambios en los repositorios. Aprendemos los conceptos básicos de Git, como commit, push, pull y merge, para colaborar de manera efectiva en proyectos en GitHub.
-\\7)Contribuímos a proyectos existentes (opcional): Exploramos proyectos en GitHub que nos interesen y consideramos contribuir con código, reportes de errores (issues), o mejoras (pull requests). Aprendemos sobre los procesos de contribución específicos de cada proyecto.
-\\8)Utilizamos las funciones adicionales: GitHub ofrece muchas otras funciones útiles, como la gestión de proyectos, integración continua, acciones, wikis, y más. Exploramos estas funciones según nuestras necesidades y objetivos.
+
+\\1) Creamos una cuenta: Vamos al sitio web de GitHub (github.com) y hacemos clic en "Sign up" para crear una cuenta. Proporcionamos nuestra dirección de correo electrónico, nombre de usuario y contraseña, y seguimos los pasos para completar el proceso de registro.\\
+
+\\2) Confirmamos nuestra dirección de correo electrónico: Después de registrarnos, recibiremos un correo electrónico de GitHub para confirmar nuestra dirección de correo electrónico. Seguimos las instrucciones en el correo electrónico para confirmar nuestra cuenta.\\
+
+\\3) Exploramos la interfaz de usuario: Una vez que hayamos iniciado sesión en nuestra cuenta de GitHub, nos tomamos un tiempo para explorar la interfaz de usuario. Nos familiarizamos con las pestañas de perfil, repositorios, notificaciones y configuración.\\
+
+\\4) Creamos un nuevo repositorio: Para comenzar a trabajar en un proyecto, podemos crear un nuevo repositorio. Hacemos clic en el botón "New" en la página principal de GitHub, proporcionamos un nombre para nuestro repositorio, una descripción opcional y elegimos si el repositorio será público o privado.\\
+
+\\5) Clonamos un repositorio existente (opcional): Si estamos interesado en contribuir a un proyecto existente en GitHub, podemos clonar el repositorio a nuestra computadora local. Para hacer esto, navegamos al repositorio en GitHub, hacemos clic en el botón "Code" y copiamos la URL del repositorio. Luego, en nuestra terminal o línea de comandos, utilizamos el comando git clone seguido de la URL del repositorio.\\
+
+\\6) Aprendemos a utilizar Git: GitHub utiliza Git, un sistema de control de versiones, para gestionar los cambios en los repositorios. Aprendemos los conceptos básicos de Git, como commit, push, pull y merge, para colaborar de manera efectiva en proyectos en GitHub.\\
+
+\\7) Contribuímos a proyectos existentes (opcional): Exploramos proyectos en GitHub que nos interesen y consideramos contribuir con código, reportes de errores (issues), o mejoras (pull requests). Aprendemos sobre los procesos de contribución específicos de cada proyecto.\\
+
+\\8) Utilizamos las funciones adicionales: GitHub ofrece muchas otras funciones útiles, como la gestión de proyectos, integración continua, acciones, wikis, y más. Exploramos estas funciones según nuestras necesidades y objetivos.\\
+
 \\Con estos pasos, estaremos listos para comenzar a utilizar GitHub para colaborar en proyectos, compartir código, y contribuir a la comunidad de desarrollo de software.
 
 
@@ -298,3 +307,4 @@ Felis imperdiet proin fermentum leo vel orci porta non pulvinar. Lacus sed viver
 
 Pellentesque elit ullamcorper dignissim cras tincidunt lobortis. Nibh tortor id aliquet lectus proin nibh. Quam viverra orci sagittis eu volutpat odio facilisis mauris sit. Tempus quam pellentesque nec nam aliquam sem et. Tortor posuere ac ut consequat. Nulla posuere sollicitudin aliquam ultrices sagittis orci a. Vel pharetra vel turpis nunc. Tempus egestas sed sed risus pretium quam vulputate dignissim. Consequat interdum varius sit amet mattis vulputate. Dolor sed viverra ipsum nunc aliquet bibendum enim facilisis gravida. Pretium nibh ipsum consequat nisl vel pretium. Venenatis cras sed felis eget velit aliquet. Adipiscing enim eu turpis egestas pretium aenean pharetra magna ac. Non odio euismod lacinia at quis risus sed. Ut placerat orci nulla pellentesque dignissim enim sit amet. Et tortor at risus viverra adipiscing at in. Tellus molestie nunc non blandit. Pellentesque id nibh tortor id aliquet lectus proin nibh. Integer feugiat scelerisque varius morbi enim.
 \end{document}
+
