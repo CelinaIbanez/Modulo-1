@@ -1,11 +1,14 @@
 \documentclass{article}
 \usepackage{graphicx} % Required for inserting images
+
+\title{GRUPO HUDSON}
+\author{Celina Ibañez\\Pilar Mobilia\\Carla Torresi\\Louise Berard\\Bernardita Zanella\\Karima Valli}
+\date{March 2024}
+
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
 \usepackage{placeins}
 \usepackage{enumitem}
-
-\title{Grupo Hudson}
-\author{Pilar Mobilia\\Celina Ibañez\\Carla Torresi\\Louise Berard\\Bernardita Zanella\\Karima Valli}
-\date{March 2024}
 
 \begin{document}
 
@@ -17,7 +20,7 @@ Comenzamos eligiendo un editor de texto.Podemos usar cualquier editor de texto p
 \\Luego, procedemos a crear nuestro archivo, y a la hora de guardarlo, debemos hacerlo bajo la extensión .md.
 \\Finalmente, para visualizar el contenido realizado, utilizamos un visor de Markdown en línea o un procesador de Markdown integrado en algunos editores de texto. Esto nos permitirá ver cómo se verá el contenido una vez que se convierta a HTML u otro formato.
 \subsection{Títulos}
-En Markdown, un lenguaje de marcado ligero, podemos añadir títulos utilizando el símbolo de numeral (#). La cantidad de numerales indica el nivel de jerarquía del título. Por ejemplo:\\
+En Markdown, un lenguaje de marcado ligero, podemos añadir títulos utilizando el símbolo de numeral #. La cantidad de numerales indica el nivel de jerarquía del título. Por ejemplo:\\
 \includegraphics[width=1\linewidth]{titulos.jpg}
 \\El número de numerales determina el tamaño y la jerarquía del título. Cuantos más numerales, menor es el nivel de jerarquía del título. Por ejemplo, # Título 1 es el título principal, mientras que ##### Título 5 es un título de quinto nivel, que suele ser el más pequeño y menos prominente.
 \\Algunas implementaciones de Markdown también permiten usar guiones o signos de igual para títulos de diferentes niveles, pero los numerales son la forma más común y recomendada de agregar títulos en Markdown.
@@ -116,7 +119,7 @@ Para comenzar a utilizar LaTeX hay una serie de pasos que debemos seguir.
 Comenzamos eligiendo un editor de texto. Podemos utilizar editores especializados en LaTeX como TeXShop (para macOS), TeXworks, Texmaker, TexStudio o Overleaf (una plataforma en línea). Todos estos editores nos permiten escribir y compilar documentos LaTeX de manera efectiva.
 \\Luego, procedemos a crear nuestro archivo, y a la hora de guardarlo, debemos hacerlo bajo la extensión .tex.
 \\Finalmente, utilizamos la opción de compilación del editor para compilar nuestro documento LaTeX. Esto generará un archivo de salida (generalmente en formato PDF) con el documento formateado según las especificaciones de LaTeX.
-\section{Introduction}
+\\
 Para comenzar a escribir un documento en LaTex debemos colocar: "documentclass{article}". Antes de cada comando, como el anterior, debemos colocar una barra inversa invertida.
 \\
 
@@ -135,33 +138,7 @@ Luego de haber enunciado los paquetes, debemos colocar el título del texto con 
 A continuación se comenzará el cuerpo del documento con "begin{document}" y se finalizará el mismo con "end{document}". Y luego dentro de estos dos comandos, se colocan los que vamos a describir a continuación para agregar viñetas, títulos y subtítulos, tablas, hyperlinks (tanto links de una página web cómo puede ser la de GitHub como nuestros correos electrónicos), imágenes y texto en negrita.
 \\
 
-\section{VIÑETA}
-Para enumerar con números, se utiliza el entorno "enumerate". Dentro de este entorno, cada ítem se inicia con el comando "item", seguido del texto que se desea enumerar. Por ejemplo:
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=0.5\linewidth]{WhatsApp Image 2024-03-20 at 19.50.47.jpeg}
-\end{figure}
-\FloatBarrier
-Para utilizar viñetas en lugar de números, se puede usar el entorno "itemize". Dentro de este entorno, cada ítem se inicia con el comando "item", seguido del texto que se desea incluir con viñetas. Por ejemplo :
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=0.5\linewidth]{WhatsApp Image 2024-03-20 at 19.50.46 (2).jpeg}
-\end{figure}
-\FloatBarrier
-Además, en el entorno "itemize", se puede cambiar el tipo de viñeta. Por defecto, se utilizan viñetas redondas, pero se pueden cambiar a viñetas cuadradas, rombos, etc., utilizando el comando "item[]" y especificando el tipo de viñeta entre corchetes.
-\section{TABLA}
-Una tabla en LaTeX se crea utilizando el entorno "table". Dentro de este entorno, usamos el entorno "tabular" para crear la tabla en sí. Primero, se especifica la estructura de la tabla dentro de llaves, donde se indica el formato de cada columna. Por ejemplo, si queremos tres columnas centradas y separadas con barras verticales, colocamos entre 2 llaves, primero una barra vertical, luego una "c", y repetimos esto dos veces más, completándose las tres columnas, y antes de cerrar con la llave colocamos otra barra vertical. 
-\\
-
-Luego, dentro de la tabla, escribimos los datos línea por línea. Cada línea se separa con el comando "dos barras inversas invertidas". Los elementos de cada columna  se separan por el símbolo "et". Para dibujar líneas horizontales en la tabla, usamos el comando "hline" después de cada línea. Finalmente, fuera del entorno "tabular", usamos "caption{}" para agregar un título a la tabla, y "label{}" para poder hacer referencia a la tabla en el texto utilizando "ref{}".
-
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=1\linewidth]{WhatsApp Image 2024-03-20 at 19.50.47 (1).jpeg}
-\end{figure}
-\FloatBarrier
-
-\section{TÍTULOS}
+\subsection{Títulos}
 Para crear títulos y subtítulos en LaTeX, se puede usar los comandos “section”, “subsection” y “subsubsection”.
 \begin{enumerate}
     \item “section” se utiliza para crear un título principal.
@@ -180,15 +157,25 @@ Que se puede observar de la siguiente manera :\\
     \includegraphics[width=0.5\linewidth]{WhatsApp Image 2024-03-20 at 19.50.46.jpeg}
 \end{figure}
 \FloatBarrier
-\section{HYPERLINKS}
-Al agregar el paquete “hyperref” antes de "begin{document}" con "usepackage{hyperref}", se puede usar tanto "url{}" como "href{}". \\
-\begin{enumerate}
-    \item "url{}" se utiliza para mostrar URLs sin convertirlas en enlaces activos.
-    \item "href{}" se utiliza para crear enlaces activos a URLs o direcciones de correo electrónico, permitiendo personalizar el texto del enlace mostrado.\\
-\end{enumerate}
-\section{NEGRITA}  
+\subsection{Párrafos}
+Para separar en párrafos se usan las 2 barras inversas invertidas.
+\subsection{Negrita}  
 El comando “textbf{}” encierra el texto que deseas en negrita. Cuando compilas el documento LaTeX, se verá que el texto entre los corchetes aparecerá en negrita en el PDF resultante.\\
-\section{IMAGEN}
+\subsection{Viñetas}
+Para enumerar con números, se utiliza el entorno "enumerate". Dentro de este entorno, cada ítem se inicia con el comando "item", seguido del texto que se desea enumerar. Por ejemplo:
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\linewidth]{WhatsApp Image 2024-03-20 at 19.50.47.jpeg}
+\end{figure}
+\FloatBarrier
+Para utilizar viñetas en lugar de números, se puede usar el entorno "itemize". Dentro de este entorno, cada ítem se inicia con el comando "item", seguido del texto que se desea incluir con viñetas. Por ejemplo :
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\linewidth]{WhatsApp Image 2024-03-20 at 19.50.46 (2).jpeg}
+\end{figure}
+\FloatBarrier
+Además, en el entorno "itemize", se puede cambiar el tipo de viñeta. Por defecto, se utilizan viñetas redondas, pero se pueden cambiar a viñetas cuadradas, rombos, etc., utilizando el comando "item[]" y especificando el tipo de viñeta entre corchetes.
+\subsection{Imagen}
 Para agregar una imagen a un documento LaTeX, primero se necesita asegurar de tener la imagen en un formato compatible, como JPEG, PNG o PDF.
 Luego, dentro del documento LaTeX, se debe cargar el paquete graphicx en el preámbulo con el comando "usepackage{graphicx}". Este paquete permite la inclusión de gráficos en tu documento.
 \\
@@ -207,8 +194,24 @@ Dentro de los corchetes, se debe especificar la ruta de la imagen. Si la imagen 
     \item "caption{Enter Caption}": con este comando se agrega una leyenda o título a tu figura o tabla en tu documento LaTeX.
     \item "label{fig:enter-label}": este comando asigna una etiqueta a tu figura o tabla para que puedas referenciarla fácilmente en otras partes del documento.\\
 \end{enumerate}
-\section{PÁRRAFOS}
-Para separar en párrafos se usan las 2 barras inversas invertidas.
+\subsection{Tabla}
+Una tabla en LaTeX se crea utilizando el entorno "table". Dentro de este entorno, usamos el entorno "tabular" para crear la tabla en sí. Primero, se especifica la estructura de la tabla dentro de llaves, donde se indica el formato de cada columna. Por ejemplo, si queremos tres columnas centradas y separadas con barras verticales, colocamos entre 2 llaves, primero una barra vertical, luego una "c", y repetimos esto dos veces más, completándose las tres columnas, y antes de cerrar con la llave colocamos otra barra vertical. 
+\\
+
+Luego, dentro de la tabla, escribimos los datos línea por línea. Cada línea se separa con el comando "dos barras inversas invertidas". Los elementos de cada columna  se separan por el símbolo "et". Para dibujar líneas horizontales en la tabla, usamos el comando "hline" después de cada línea. Finalmente, fuera del entorno "tabular", usamos "caption{}" para agregar un título a la tabla, y "label{}" para poder hacer referencia a la tabla en el texto utilizando "ref{}".
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=1\linewidth]{WhatsApp Image 2024-03-20 at 19.50.47 (1).jpeg}
+\end{figure}
+\FloatBarrier
+\subsection{Hipervínculo}
+Al agregar el paquete “hyperref” antes de "begin{document}" con "usepackage{hyperref}", se puede usar tanto "url{}" como "href{}". \\
+\begin{enumerate}
+    \item "url{}" se utiliza para mostrar URLs sin convertirlas en enlaces activos.
+    \item "href{}" se utiliza para crear enlaces activos a URLs o direcciones de correo electrónico, permitiendo personalizar el texto del enlace mostrado.\\
+\end{enumerate}
+
 \section{GitHub}
 Para utilizar GitHub, seguimos estos pasos:\\
 1)Creamos una cuenta: Vamos al sitio web de GitHub (github.com) y hacemos clic en "Sign up" para crear una cuenta. Proporcionamos nuestra dirección de correo electrónico, nombre de usuario y contraseña, y seguimos los pasos para completar el proceso de registro.
@@ -220,6 +223,8 @@ Para utilizar GitHub, seguimos estos pasos:\\
 \\7)Contribuímos a proyectos existentes (opcional): Exploramos proyectos en GitHub que nos interesen y consideramos contribuir con código, reportes de errores (issues), o mejoras (pull requests). Aprendemos sobre los procesos de contribución específicos de cada proyecto.
 \\8)Utilizamos las funciones adicionales: GitHub ofrece muchas otras funciones útiles, como la gestión de proyectos, integración continua, acciones, wikis, y más. Exploramos estas funciones según nuestras necesidades y objetivos.
 \\Con estos pasos, estaremos listos para comenzar a utilizar GitHub para colaborar en proyectos, compartir código, y contribuir a la comunidad de desarrollo de software.
+
+
 \section{Extra}
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Rutrum tellus pellentesque eu tincidunt tortor aliquam nulla facilisi cras. Scelerisque eleifend donec pretium vulputate. Sapien et ligula ullamcorper malesuada proin libero nunc consequat interdum. Aliquam sem et tortor consequat. Neque sodales ut etiam sit amet nisl purus in mollis. Ut morbi tincidunt augue interdum velit. Erat nam at lectus urna duis convallis convallis tellus. Vel risus commodo viverra maecenas accumsan lacus vel. Etiam erat velit scelerisque in dictum non. Arcu risus quis varius quam quisque id. Tincidunt augue interdum velit euismod in pellentesque massa placerat duis. Sit amet porttitor eget dolor morbi non. Lacus sed viverra tellus in hac habitasse.
 
